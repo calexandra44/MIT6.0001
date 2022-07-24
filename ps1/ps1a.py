@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+// initial variables
 annual_salary = float(input("Enter your annual salary (before tax): "))
 portion_saved = float(input("Enter your annual savings percentage (in decimal format): "))
 total_cost = float(input("Enter the cost of your dream home: "))
@@ -13,6 +14,7 @@ portion_down_payment = float(total_cost) * .25
 
 months = 0
 current_savings = 0
+
 for i in range(int(current_savings),int(portion_down_payment)):
    current_savings += int(monthly_savings)
    current_savings *= (monthly_rate)
